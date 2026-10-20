@@ -8,6 +8,14 @@
 // TODO: Save all responses in meaningfully named variables using let or const.
 // Hint: let animal = prompt("Enter an animal:");
 // Hint: let age = Number(prompt("Enter an age:"));
+let animal = prompt("Enter an animal:");
+let age = Number(prompt("Enter an age:"));
+let color = prompt("Enter a color:");
+let place = prompt("Enter a place:");
+let verb = prompt("Enter a verb:");
+let person1 = prompt("Enter a person:");
+let person2 = prompt("Enter another person:");
+let number = Number(prompt("Enter a number:"));
 
 // PART 2 — DATA TYPES
 // TODO: Declare a real Boolean: const isRidiculous = true; (true is NOT "true").
@@ -27,7 +35,7 @@
 
 // PART 5 — STORY (TEMPLATE LITERAL)
 // TODO: Build one original story with BACKTICKS and ${variableName}.
-// TODO: Include ALL eight prompt responses, plus at least two math results.
+// TODO: Include ALL eight prompt responses,racoo plus at least two math results.
 // Hint (not a whole story): let story = `Once, ${animal} arrived...`;
 
 // PART 6 — DISPLAY ON THE WEBPAGE
