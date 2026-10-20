@@ -17,21 +17,20 @@ let person1 = prompt("Enter a person:");
 let person2 = prompt("Enter another person:");
 let number = Number(prompt("Enter a number:"));
 
-// PART 2 — DATA TYPES
-// TODO: Declare a real Boolean: const isRidiculous = true; (true is NOT "true").
-// TODO: Log typeof for a string, a number and a Boolean with labels.
-// Hint: console.log("Animal type:", typeof animal);
-
 // PART 3 — VARIABLE CHANGES AND CONCATENATION
 // TODO: Reassign one let variable after its first value (use the updated value).
 // TODO: Combine a quoted string and a variable with +; show the result.
 // Hint: let message = "Meet " + animal;
+
+
 
 // PART 4 — MATH OPERATORS
 // TODO: Use ALL six operators with numeric values: +  -  *  /  %  **
 // TODO: Store each result in a clearly named variable.
 // TODO: Use at least TWO math results in your final story.
 // NOTE: prompt() returns text; use Number(...) before doing math. Avoid division by zero.
+
+
 
 // PART 5 — STORY (TEMPLATE LITERAL)
 // TODO: Build one original story with BACKTICKS and ${variableName}.
