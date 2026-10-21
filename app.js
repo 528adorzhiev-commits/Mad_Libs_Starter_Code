@@ -10,9 +10,9 @@
 // Hint: let age = Number(prompt("Enter an age:"));
 let animal = prompt("Enter an animal:");
 let age = Number(prompt("Enter an age:"));
-let color = prompt("Enter a color:");
-let place = prompt("Enter a place:");
+let item = prompt("Enter an item:");
 let verb = prompt("Enter a verb:");
+let reason = prompt("Enter a criminal offense:");
 let person1 = prompt("Enter a person:");
 let person2 = prompt("Enter another person:");
 let number = Number(prompt("Enter a number:"));
@@ -21,7 +21,7 @@ let number = Number(prompt("Enter a number:"));
 // TODO: Reassign one let variable after its first value (use the updated value).
 // TODO: Combine a quoted string and a variable with +; show the result.
 // Hint: let message = "Meet " + animal;
-
+let math = "age" - "number"
 
 
 // PART 4 — MATH OPERATORS
@@ -37,9 +37,12 @@ let number = Number(prompt("Enter a number:"));
 // TODO: Include ALL eight prompt responses,racoo plus at least two math results.
 // Hint (not a whole story): let story = `Once, ${animal} arrived...`;
 
+let story = `When ${person1} and ${person2} were sent to a jail for ${reason}. They used ${item} to dig a convenient tunnel and were digging it for ${number} days.
+ When they finally escaped to the other side, security guard caught them because they were ${verb}. But they used the ${item} again to knock out the guard`
+
 // PART 6 — DISPLAY ON THE WEBPAGE
 // TODO: Uncomment and complete the line below once your story variable exists.
-// document.getElementById("madlib-output").innerHTML = story;
+document.getElementById("madlib-output").innerHTML = story;
 
 // FINAL: Add at least three meaningful comments describing your code.
 // TEST: Try TWO sets of answers and check the browser console for errors.
